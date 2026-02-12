@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoppers - Pet Food Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <p>Up to 50% Discount - All Pet Products SHOP NOW</p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Hoppers Logo" onerror="this.style.display='none'">
+                <span class="logo-text">HOPPERS</span>
+            </div>
+            <nav class="nav">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#" class="nav-link">Shop</a>
+                <a href="#" class="nav-link">Product</a>
+                <a href="#" class="nav-link">Blog</a>
+                <a href="#" class="nav-link">Promotion</a>
+            </nav>
+            <div class="header-right">
+                <div class="search-box">
+                    <input type="text" placeholder="Search product...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="header-icons">
+                    <a href="#" class="icon-link cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge">0</span>
+                    </a>
+                    <a href="#" class="icon-link"><i class="fas fa-user"></i></a>
+                    <a href="#" class="icon-link"><i class="fas fa-heart"></i></a>
+                    <a href="#" class="icon-link"><i class="fas fa-sync"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-subtitle">SCIENTIFICALLY CRAFTED RECIPES</p>
+                <h1 class="hero-title">Healthier Dog<br>Food A Reality.</h1>
+                <button class="btn-primary">
+                    Order Now
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="hero-image">
+                <img src="hero-dog.png" alt="Happy Dog" onerror="this.src='https://via.placeholder.com/500x500?text=Dog+Image'">
+                <div class="product-showcase">
+                    <img src="product1.png" alt="Dog Food Product" onerror="this.src='https://via.placeholder.com/200x300?text=Product'">
+                </div>
+            </div>
+        </div>
+        <div class="hero-decorations">
+            <img src="bone-icon.png" class="deco-bone" alt="" onerror="this.style.display='none'">
+            <img src="paw-icon.png" class="deco-paw" alt="" onerror="this.style.display='none'">
+        </div>
+    </section>
+
+    <!-- Top Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Top Categories</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <div class="category-circle">
+                        <img src="dog-icon.png" alt="Dog" onerror="this.src='https://via.placeholder.com/100?text=Dog'">
+                    </div>
+                    <h3>Dog</h3>
+                    <p>24 Item</p>
+                </div>
+                <div class="category-item">
+                    <div class="category-circle green">
+                        <img src="cat-icon.png" alt="Cat" onerror="this.src='https://via.placeholder.com/100?text=Cat'">
+                    </div>
+                    <h3>Cat</h3>
+                    <p>18 Item</p>
+                </div>
+                <div class="category-item">
+                    <div class="category-circle blue">
+                        <img src="fish-icon.png" alt="Fish" onerror="this.src='https://via.placeholder.com/100?text=Fish'">
+                    </div>
+                    <h3>Fish</h3>
+                    <p>12 Item</p>
+                </div>
+                <div class="category-item">
+                    <div class="category-circle purple">
+                        <img src="bird-icon.png" alt="Bird" onerror="this.src='https://via.placeholder.com/100?text=Bird'">
+                    </div>
+                    <h3>Bird</h3>
+                    <p>15 Item</p>
+                </div>
+                <div class="category-item">
+                    <div class="category-circle pink">
+                        <img src="hamster-icon.png" alt="Hamster" onerror="this.src='https://via.placeholder.com/100?text=Hamster'">
+                    </div>
+                    <h3>Hamster</h3>
+                    <p>8 Item</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommended Products -->
+    <section class="recommended">
+        <div class="container">
+            <h2 class="section-title">Recommended For You</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="badge-sale">Sale</span>
+                        <img src="product1.png" alt="Product" onerror="this.src='https://via.placeholder.com/250x250?text=Product+1'">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                            <button class="action-btn"><i class="fas fa-sync"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Best Serving Gingerbread Carrier Plush Cat Toy</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="price">$15.99</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="product2.png" alt="Product" onerror="this.src='https://via.placeholder.com/250x250?text=Product+2'">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                            <button class="action-btn"><i class="fas fa-sync"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Eukanuba 15 Chicken Beef & Freeze Dried Dog Meals</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="price">$24.99</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="product3.png" alt="Product" onerror="this.src='https://via.placeholder.com/250x250?text=Product+3'">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                            <button class="action-btn"><i class="fas fa-sync"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Made, You Mixed Meal: Branch Pour For Canines</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="price">$32.50</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="product4.png" alt="Product" onerror="this.src='https://via.placeholder.com/250x250?text=Product+4'">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                            <button class="action-btn"><i class="fas fa-sync"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Aqua-Safe Fresh Care Refresher Use & 50% Off</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="price">$18.75</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotion Banner -->
+    <section class="promo-banner">
+        <div class="container">
+            <div class="promo-content">
+                <div class="promo-badge">
+                    <span class="discount">15%</span>
+                    <span>OFF</span>
+                </div>
+                <h2>Pamper Your Pet with Our Premium Products</h2>
+                <button class="btn-primary">
+                    Order Now
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="promo-image">
+                <img src="promo-dog.png" alt="Dog with Product" onerror="this.src='https://via.placeholder.com/300x200?text=Promo'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Banners -->
+    <section class="feature-banners">
+        <div class="container">
+            <div class="banner-grid">
+                <div class="feature-banner peach-bg">
+                    <div class="banner-content">
+                        <span class="banner-tag">NEW</span>
+                        <h3>Pet Products For<br>A Happier</h3>
+                        <a href="#" class="banner-link">Shop Now →</a>
+                    </div>
+                    <img src="banner1.png" alt="Pet Products" onerror="this.src='https://via.placeholder.com/300x250?text=Banner+1'">
+                </div>
+
+                <div class="feature-banner gray-bg">
+                    <div class="banner-content">
+                        <h3>Toys Tailored For<br>Your</h3>
+                        <p>Order Anytime, pets you'll</p>
+                        <a href="#" class="banner-link">Shop Now →</a>
+                    </div>
+                    <img src="banner2.png" alt="Pet Toys" onerror="this.src='https://via.placeholder.com/300x250?text=Banner+2'">
+                </div>
+
+                <div class="feature-banner green-bg">
+                    <div class="banner-content">
+                        <h3>Perfect For Wet<br>Dry Foods</h3>
+                        <a href="#" class="banner-link">Shop Now →</a>
+                    </div>
+                    <img src="banner3.png" alt="Pet Food" onerror="this.src='https://via.placeholder.com/300x250?text=Banner+3'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Today's Best Deal -->
+    <section class="best-deals">
+        <div class="container">
+            <h2 class="section-title">Today's Best Deal</h2>
+            <div class="deal-tabs">
+                <button class="tab-btn active">Latest Products</button>
+                <button class="tab-btn">Top Sellers</button>
+                <button class="tab-btn">New Arrivals</button>
+                <button class="tab-btn">Recommended Products</button>
+                <button class="tab-btn">All Product</button>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="badge-sale">Sale</span>
+                        <img src="deal1.png" alt="Deal Product" onerror="this.src='https://via.placeholder.com/250x250?text=Deal+1'">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                            <button class="action-btn"><i class="fas fa-sync"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Amazonas Bag Garden Dog Chic Buy Grooming...</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="price">$28.99</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="deal2.png" alt="Deal Product" onerror="this.src='https://via.placeholder.com/250x250?text=Deal+2'">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                            <button class="action-btn"><i class="fas fa-sync"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Branch Canine Cans Feeds (Tasty Classics)</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="price"><span class="old-price">$65.00</span> $59.99</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="deal3.png" alt="Deal Product" onerror="this.src='https://via.placeholder.com/250x250?text=Deal+3'">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                            <button class="action-btn"><i class="fas fa-sync"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Call In Their Belier Early View What (With...</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="price">$42.99</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="deal4.png" alt="Deal Product" onerror="this.src='https://via.placeholder.com/250x250?text=Deal+4'">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                            <button class="action-btn"><i class="fas fa-sync"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Orka Salamanders 2 x 270 Reptile Food</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="price">$89.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section class="brands-section">
+        <div class="container">
+            <h2>Brands Trusted By Consultant And<br>Be <span class="highlight">Relieved</span></h2>
+            <div class="brands-grid">
+                <div class="brand-item">
+                    <img src="brand1.png" alt="Brand" onerror="this.src='https://via.placeholder.com/100x100?text=Brand+1'">
+                </div>
+                <div class="brand-item">
+                    <img src="brand2.png" alt="Brand" onerror="this.src='https://via.placeholder.com/100x100?text=Brand+2'">
+                </div>
+                <div class="brand-item">
+                    <img src="brand3.png" alt="Brand" onerror="this.src='https://via.placeholder.com/100x100?text=Brand+3'">
+                </div>
+                <div class="brand-item">
+                    <img src="brand4.png" alt="Brand" onerror="this.src='https://via.placeholder.com/100x100?text=Brand+4'">
+                </div>
+                <div class="brand-item">
+                    <img src="brand5.png" alt="Brand" onerror="this.src='https://via.placeholder.com/100x100?text=Brand+5'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Banner -->
+    <section class="bottom-banner">
+        <div class="container">
+            <div class="banner-image">
+                <img src="bottom-banner.png" alt="Cute Bird" onerror="this.src='https://via.placeholder.com/400x400?text=Banner'">
+            </div>
+            <div class="banner-content">
+                <h2>Pet's Comfort & <span class="joy">Joy</span></h2>
+                <p>Finding just-right essentials easily with picks, plus pieces from the sale section.</p>
+                <button class="btn-primary">
+                    Order Now
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Fast Shipping</h3>
+                    <p>Try 7 Days, return it back if it doesn't work for you</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-undo"></i>
+                    </div>
+                    <h3>Easy return</h3>
+                    <p>It couldn't be easier. A no-brainer way to buy.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Pretty like a all day, everyday thing so you can live right.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Secure Payment</h3>
+                    <p>Safe and secure online payment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="#">Explore Our services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Store</h3>
+                    <ul>
+                        <li><a href="#">Shop City</a></li>
+                        <li><a href="#">Shop All</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Checkout</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Recalls & Advisories</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Review</h3>
+                    <ul>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Commitment</a></li>
+                        <li><a href="#">Veterinarian</a></li>
+                        <li><a href="#">Ambassador</a></li>
+                        <li><a href="#">Influencer</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="newsletter">
+                <div class="newsletter-content">
+                    <h3>Sign up to stay up to date on the latest news, tips and info</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit" class="btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Hoppers. All rights reserved.</p>
+                <div class="payment-methods">
+                    <img src="visa.png" alt="Visa" onerror="this.style.display='none'">
+                    <img src="mastercard.png" alt="Mastercard" onerror="this.style.display='none'">
+                    <img src="paypal.png" alt="PayPal" onerror="this.style.display='none'">
+                    <img src="amex.png" alt="Amex" onerror="this.style.display='none'">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
