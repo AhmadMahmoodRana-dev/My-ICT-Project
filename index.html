@@ -12,8 +12,8 @@
     <header class="header">
         <div class="container">
             <div class="logo">
-                <img src="suxnix-logo.png" alt="Suxnix" onerror="this.style.display='none'">
-                <span class="logo-text">Suxnix</span>
+                <img src="./images/logo.png" alt="Suxnix">
+                <!-- <span class="logo-text">Suxnix</span> -->
             </div>
             <nav class="nav">
                 <a href="#" class="nav-link">HOME</a>
@@ -25,8 +25,8 @@
                 <a href="#" class="nav-link">CONTACT</a>
             </nav>
             <div class="header-icons">
-                <a href="#" class="icon-btn"><i class="fas fa-search"></i></a>
-                <a href="#" class="icon-btn"><i class="fas fa-shopping-cart"></i></a>
+                <button class="icon-btn"><i class="fas fa-search"></i></button>
+                <button class="icon-btn"><i class="fas fa-shopping-cart"></i></button>
                 <button class="btn-signup">SIGN UP</button>
             </div>
         </div>
@@ -51,19 +51,19 @@
     <section class="features-bar">
         <div class="container">
             <div class="feature-box">
-                <div class="feature-icon green">
+                <div class="feature-icon">
                     <i class="fas fa-dumbbell"></i>
                 </div>
                 <h3>CLIMB HELP &<br>EXERCISE</h3>
             </div>
             <div class="feature-box">
-                <div class="feature-icon green">
+                <div class="feature-icon">
                     <i class="fas fa-heart"></i>
                 </div>
                 <h3>RISK OF HEART<br>DISEASE</h3>
             </div>
             <div class="feature-box">
-                <div class="feature-icon green">
+                <div class="feature-icon">
                     <i class="fas fa-user-shield"></i>
                 </div>
                 <h3>IMPROVE<br>IMMUNITY</h3>
@@ -203,7 +203,7 @@
             <h2 class="section-heading">SUPPLEMENT FEATURES</h2>
             <div class="features-grid">
                 <div class="feature-item">
-                    <div class="feature-icon-circle green">
+                    <div class="feature-icon-circle">
                         <i class="fas fa-leaf"></i>
                     </div>
                     <h3>NATURAL SUPPLEMENT</h3>
@@ -211,7 +211,7 @@
                 </div>
 
                 <div class="feature-item">
-                    <div class="feature-icon-circle green">
+                    <div class="feature-icon-circle">
                         <i class="fas fa-award"></i>
                     </div>
                     <h3>QUALITY PRODUCT</h3>
@@ -219,7 +219,7 @@
                 </div>
 
                 <div class="feature-item">
-                    <div class="feature-icon-circle green">
+                    <div class="feature-icon-circle">
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <h3>ORGANIZE HEALTH</h3>
@@ -227,7 +227,7 @@
                 </div>
 
                 <div class="feature-item">
-                    <div class="feature-icon-circle green">
+                    <div class="feature-icon-circle">
                         <i class="fas fa-user-md"></i>
                     </div>
                     <h3>AUTHENTIC LICENSE</h3>
@@ -235,7 +235,7 @@
                 </div>
 
                 <div class="feature-item">
-                    <div class="feature-icon-circle green">
+                    <div class="feature-icon-circle">
                         <i class="fas fa-clipboard-check"></i>
                     </div>
                     <h3>100% TRUSTED</h3>
@@ -243,7 +243,7 @@
                 </div>
 
                 <div class="feature-item">
-                    <div class="feature-icon-circle green">
+                    <div class="feature-icon-circle">
                         <i class="fas fa-heartbeat"></i>
                     </div>
                     <h3>AFFORDABLE PRICE</h3>
@@ -291,7 +291,7 @@
                 <div class="quantity-cart">
                     <div class="quantity-selector">
                         <button>-</button>
-                        <input type="number" value="1" min="1">
+                        <input type="number" value="1" min="1" id="quantity">
                         <button>+</button>
                     </div>
                     <button class="btn-add-cart">ADD TO CART</button>
@@ -305,204 +305,68 @@
             </div>
         </div>
     </section>
-
-    <!-- Pricing Packages -->
-    <section class="pricing-section">
+    <!-- Contact Us Section -->
+    <section class="contact-section">
         <div class="container">
-            <h2 class="section-heading">SUPPLEMENT PACKAGES</h2>
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <h3>BASIC</h3>
-                    <div class="price-tag">
-                        <span class="currency">$</span>
-                        <span class="amount">500</span>
-                        <span class="period">/MONTH</span>
+            <h2 class="section-heading">CONTACT US</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    
+                    <div class="info-box">
+                        <h4><i class="fas fa-map-marker-alt"></i> Address</h4>
+                        <p>123 Street Name, City Name</p>
+                        <p>State, Country - 12345</p>
                     </div>
-                    <ul class="features-list">
-                        <li><i class="fas fa-check"></i> Unlimited muscle</li>
-                        <li><i class="fas fa-check"></i> No time restrictions</li>
-                        <li><i class="fas fa-check"></i> Free supplement</li>
-                        <li><i class="fas fa-check"></i> Gym fitness access</li>
-                        <li><i class="fas fa-check"></i> Month to month</li>
-                    </ul>
-                    <button class="btn-package">GET STARTED</button>
-                    <div class="payment-icons">
-                        <i class="fab fa-cc-visa"></i>
-                        <i class="fab fa-cc-mastercard"></i>
-                        <i class="fab fa-cc-paypal"></i>
-                        <i class="fab fa-cc-amex"></i>
+                    
+                    <div class="info-box">
+                        <h4><i class="fas fa-phone"></i> Phone</h4>
+                        <p>+1 (123) 456-7890</p>
+                        <p>+1 (098) 765-4321</p>
                     </div>
-                </div>
-
-                <div class="pricing-card popular">
-                    <span class="popular-badge">POPULAR</span>
-                    <h3>PREMIUM</h3>
-                    <div class="price-tag">
-                        <span class="currency">$</span>
-                        <span class="amount">850</span>
-                        <span class="period">/MONTH</span>
-                    </div>
-                    <ul class="features-list">
-                        <li><i class="fas fa-check"></i> Unlimited muscle</li>
-                        <li><i class="fas fa-check"></i> No time restrictions</li>
-                        <li><i class="fas fa-check"></i> Free supplement</li>
-                        <li><i class="fas fa-check"></i> Gym fitness access</li>
-                        <li><i class="fas fa-check"></i> Month to month</li>
-                    </ul>
-                    <button class="btn-package">GET STARTED</button>
-                    <div class="payment-icons">
-                        <i class="fab fa-cc-visa"></i>
-                        <i class="fab fa-cc-mastercard"></i>
-                        <i class="fab fa-cc-paypal"></i>
-                        <i class="fab fa-cc-amex"></i>
+                    
+                    <div class="info-box">
+                        <h4><i class="fas fa-envelope"></i> Email</h4>
+                        <p>info@suxnix.com</p>
+                        <p>support@suxnix.com</p>
                     </div>
                 </div>
 
-                <div class="pricing-card">
-                    <h3>STANDARD</h3>
-                    <div class="price-tag">
-                        <span class="currency">$</span>
-                        <span class="amount">1200</span>
-                        <span class="period">/MONTH</span>
-                    </div>
-                    <ul class="features-list">
-                        <li><i class="fas fa-check"></i> Unlimited muscle</li>
-                        <li><i class="fas fa-check"></i> No time restrictions</li>
-                        <li><i class="fas fa-check"></i> Free supplement</li>
-                        <li><i class="fas fa-check"></i> Gym fitness access</li>
-                        <li><i class="fas fa-check"></i> Month to month</li>
-                    </ul>
-                    <button class="btn-package">GET STARTED</button>
-                    <div class="payment-icons">
-                        <i class="fab fa-cc-visa"></i>
-                        <i class="fab fa-cc-mastercard"></i>
-                        <i class="fab fa-cc-paypal"></i>
-                        <i class="fab fa-cc-amex"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="testimonials-section">
-        <div class="container">
-            <h2 class="section-heading white">RECOMMENDED BY DOCTORS</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="doctor-info">
-                        <img src="./images/doctor-1.jpg" alt="Doctor">
-                        <div>
-                            <h4>DR. SMITH WATSON</h4>
-                            <p>Gym Trainer</p>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                <div class="contact-form-wrapper">
+                    <h3>Send Us A Message</h3>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Your Email *</label>
+                                <input type="email" id="email" name="email" required>
                             </div>
                         </div>
-                    </div>
-                    <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor</p>
-                </div>
 
-                <div class="testimonial-card">
-                    <div class="doctor-info">
-                        <img src="./images/doctor-2.jpg" alt="Doctor" >
-                        <div>
-                            <h4>DR. BENJAMIN</h4>
-                            <p>Gym Trainer</p>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject">
                             </div>
                         </div>
-                    </div>
-                    <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor</p>
-                </div>
 
-                <div class="testimonial-card">
-                    <div class="doctor-info">
-                        <img src="./images/doctor-2.jpg" alt="Doctor">
-                        <div>
-                            <h4>DR. WILLIAM</h4>
-                            <p>Gym Trainer</p>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" required></textarea>
                         </div>
-                    </div>
-                    <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor</p>
-                </div>
 
-                <div class="testimonial-card">
-                    <div class="doctor-info">
-                        <img src="./images/doctor-1.jpg" alt="Doctor" >
-                        <div>
-                            <h4>DR. ALEXANDER</h4>
-                            <p>Gym Trainer</p>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Section -->
-    <section class="blog-section">
-        <div class="container">
-            <h2 class="section-heading">SUXNIX NEWS FEEDS</h2>
-            <div class="blog-grid">
-                <div class="blog-card">
-                    <img src="./images/blog-1.jpg" alt="Blog">
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span><i class="fas fa-user"></i> BY ADMIN</span>
-                            <span><i class="fas fa-calendar"></i> 25 JAN 2023</span>
-                        </div>
-                        <h3>A WIDE RANGE OF MODELS AVAILABLE AT BRANCH</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
-                    </div>
-                </div>
-
-                <div class="blog-card">
-                    <img src="./images/blog-2.jpg" alt="Blog" >
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span><i class="fas fa-user"></i> BY ADMIN</span>
-                            <span><i class="fas fa-calendar"></i> 22 JAN 2023</span>
-                        </div>
-                        <h3>MAJORITY HAVE SUFFERED ALTERATION IN SOME FORM</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
-                    </div>
-                </div>
-
-                <div class="blog-card">
-                    <img src="./images/blog-3.jpg" alt="Blog" >
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span><i class="fas fa-user"></i> BY ADMIN</span>
-                            <span><i class="fas fa-calendar"></i> 18 JAN 2023</span>
-                        </div>
-                        <h3>CONSECTETUR ADIPISCING ELIT SED DO EIUSMOD</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
-                    </div>
+                        <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -514,8 +378,7 @@
             <div class="footer-grid">
                 <div class="footer-col">
                     <div class="footer-logo">
-                        <img src="footer-logo.png" alt="Suxnix" >
-                        <span>Suxnix</span>
+                        <img src="./images/footer-logo.png" alt="Suxnix" >
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt</p>
                     <div class="social-links">
@@ -540,14 +403,14 @@
                 <div class="footer-col">
                     <h3>LATEST NEWS</h3>
                     <div class="news-item">
-                        <img src="news-1.png" alt="News" >
+                        <img src="./images/blog-1.jpg" alt="News" >
                         <div>
                             <h4>ALL NATURAL SUPPLEMENT FOR WORKOUT</h4>
                             <span>15 MAY 2022</span>
                         </div>
                     </div>
                     <div class="news-item">
-                        <img src="news-2.png" alt="News" >
+                        <img src="./images/blog-2.jpg" alt="News" >
                         <div>
                             <h4>GETTING TICKETS TO BIG SHOW</h4>
                             <span>18 MAY 2022</span>
